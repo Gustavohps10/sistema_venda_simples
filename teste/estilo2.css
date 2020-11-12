@@ -1,0 +1,43 @@
+.menu{
+    width: 100%;
+    background-color: rgb(55, 170, 55);
+    padding: 10px 20px;
+}
+
+
+
+.container{
+    margin-top: 5%;
+}
+
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+#cortexto:hover{
+    color: #549666;
+}
+
+svg {
+    fill:#77ed96;
+  }
+svg:hover {
+    fill: white;
+}
+
+th { 
+    background-color:#141313;
+    color:white;
+}
+
+table{
+    border-radius: 5%; 
+}
